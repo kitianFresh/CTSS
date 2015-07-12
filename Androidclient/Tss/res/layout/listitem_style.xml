@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    		<LinearLayout android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="horizontal" >
+    		    <TextView  
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:textSize="22sp" 
+                android:text="课题："/>
+    		    
+    		    <TextView android:id="@+id/s_exerciseitem_E_title" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:textSize="22sp" />
+    		</LinearLayout>
+    		
+    		<LinearLayout android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="horizontal" >
+    		    <TextView 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:textSize="13sp" 
+                android:text="等级："/>
+    		    
+    		    <TextView android:id="@+id/s_exerciseitem_E_level"  
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:textSize="13sp" />
+    		</LinearLayout>
+    		
+    		<LinearLayout android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="horizontal" >
+    		    <TextView 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:textSize="13sp" 
+                android:text="余量："/>
+    		    
+    		   <TextView  android:id="@+id/s_exerciseitem_E_leftcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp" />
+    		</LinearLayout>
+    		
+</LinearLayout>

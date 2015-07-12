@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TssApp</string>
+    <string name="welcome">综合实训选题系统欢迎您</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_addmember">添加组员</string>
+    <string name="menu_modifypassword">修改密码</string>
+    <string name="title_activity_s_main">综合实训选题系统</string>
+    <string name="title_activity_topic_detail">课题详情</string>
+    <string name="btn_downloadfile">下载文件</string>
+    <string name="btn_openfile">打开文件</string>
+    <string name="btn_login">登陆</string>
+    <string name="btn_confirm">确认</string>
+    <string name="hint_uid">学工号</string>
+    <string name="hint_password">密码</string>
+    <string name="btn_refresh">刷新信息</string>
+    <string name="title_activity_modifypw">修改密码</string>
+ 	<string name="hint_oldpassword">原始密码</string>
+	<string name="hint_newpassword">新密码</string>
+ 	
+</resources>

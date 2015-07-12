@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context="com.example.tss.STopicDetailActivity" >
+	
+    		<LinearLayout android:orientation="horizontal"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+                	    <TextView android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textSize="20sp"
+		                    android:text="课题名称："/>
+                	     <TextView
+				            android:id="@+id/s_topicdetail_E_title"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="16sp"/>
+     		</LinearLayout>
+     		
+    		<LinearLayout android:orientation="horizontal"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+                	    <TextView android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textSize="20sp"
+		                    android:text="指导老师："/>
+                	     <TextView
+				            android:id="@+id/s_topicdetail_E_teacher"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="16sp"/>
+     		</LinearLayout>
+    	
+			<LinearLayout android:orientation="horizontal"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+                	    <TextView android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textSize="20sp"
+		                    android:text="课题等级："/>
+                	     <TextView
+				            android:id="@+id/s_topicdetail_E_level"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="16sp"/>
+     		</LinearLayout>
+     		
+			<LinearLayout android:orientation="horizontal"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+		                
+                	    <TextView android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textSize="20sp"
+		                    android:text="人数限制："/>
+                	    <TextView
+				            android:id="@+id/s_topicdetail_E_sum"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="16sp"/>
+     		</LinearLayout>
+     		
+			<LinearLayout android:orientation="horizontal"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+		                
+                	    <TextView android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textSize="20sp"
+		                    android:text="课题余量："/>
+                	    <TextView
+				            android:id="@+id/s_topicdetail_E_leftcount"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="16sp"/>
+     		</LinearLayout>
+        
+        	<LinearLayout android:orientation="horizontal"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+		                
+                	    <TextView android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textSize="20sp"
+		                    android:text="老师电话："/>
+                	<TextView
+				            android:id="@+id/s_topicdetail_E_phone"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="16sp"/>
+	
+     		</LinearLayout>
+        
+        	<LinearLayout android:orientation="horizontal"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+		                
+                	    <TextView android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textSize="20sp"
+		                    android:text="内容摘要："/>
+                	<TextView
+				            android:id="@+id/s_topicdetail_E_summary"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+							android:textSize="14sp"/>
+     		</LinearLayout>
+        
+        
+        	<LinearLayout android:orientation="vertical"
+	                	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content">
+		              <Button 
+					    android:id="@+id/s_topicdetail_downloadFile"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/btn_downloadfile"/>
+			
+					<Button
+					    android:id="@+id/s_topicdetail_openFile"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/btn_openfile"/>
+     		</LinearLayout>
+			
+			
+			<LinearLayout 
+			 	android:id="@+id/s_topicdetail_layoutbutton"
+			 	android:layout_width="match_parent"
+	    		android:layout_height="match_parent"
+	    		android:orientation="horizontal"/>
+			
+</LinearLayout>

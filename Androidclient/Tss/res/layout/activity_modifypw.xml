@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 	android:orientation="vertical"
+    tools:context="com.example.tss.ModifypwActivity" >
+
+    <EditText
+        android:id ="@+id/editText_oldpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/hint_oldpassword"/>
+    
+    <EditText
+        android:id ="@+id/editText_newpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/hint_newpassword"/>
+
+	<Button
+	    android:id="@+id/button_confirm"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btn_confirm"
+	    android:onClick="confirmClick"/>
+		
+</LinearLayout>
